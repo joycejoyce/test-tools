@@ -1,3 +1,4 @@
 *.log
 GitStatus_TestTools*
 GitCommit_TestTools*
+node_modules/
