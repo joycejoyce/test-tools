@@ -15,13 +15,13 @@ import io.github.joycejoyce.logappender.LoggerTestUtil;
 public class LogAppenderTest {
 	
 	ListAppender<ILoggingEvent> logAppender;
-	ClassThatLogs myClass;
+	//ClassThatLogs myClass;
 	
 	@Before
 	public void setup() {
 	    logAppender = LoggerTestUtil.getLogAppenderForClass(ClassThatLogs.class);
 
-	    myClass = new ClassThatLogs();
+	    //myClass = new ClassThatLogs();
 	}
 	
 	@Test
