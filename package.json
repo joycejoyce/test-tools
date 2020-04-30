@@ -1,0 +1,23 @@
+{
+  "name": "tmp_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "chai": "^4.2.0",
+    "file-system": "^2.2.2",
+    "jquery": "^3.5.0",
+    "jsdom": "^16.2.2",
+    "mocha": "^7.1.2"
+  }
+}
